@@ -8,7 +8,7 @@ from datetime import datetime
 from spotipy import SpotifyClientCredentials
 
 
-CREDS = SpotifyClientCredentials(client_id='ed7be1ad172d4257be157f4a1b8ca902',client_secret='82eb597db743456f9048bd0da108776d')
+CREDS = SpotifyClientCredentials(client_id='your-client-id',client_secret='your-secret-id')
 
 
 spotipy_object = spotipy.Spotify(client_credentials_manager=CREDS)
